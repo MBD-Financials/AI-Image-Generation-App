@@ -25,7 +25,7 @@ const Home = () => {
   const [searchedResults, setSearchedResults] = useState(null);
 
   const fetchPosts = async () => {
-    setLoading(true);
+    setLoading(true); 
 
     try {
       const response = await fetch( `${API_URL}/lexica/?searchText=${searchText}` , {
