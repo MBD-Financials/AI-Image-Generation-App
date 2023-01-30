@@ -47,4 +47,8 @@ export const surpriseMePrompts = [
   'A Space Shuttle flying above Cape Town, digital art',
 ];
 
-export const API_URL="http://localhost:8080/api/v1";
+//export const API_URL="http://localhost:8080/api/v1"; // for local
+
+export const API_URL="https://dalle-arbb.onrender.com/api/v1/";
+
+
